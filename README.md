@@ -21,3 +21,5 @@ $pipenv install marshmallow==2.16.3
 #### Python REST API Persistence with MongoDB
 
 $pipenv install pymongo==3.7.2
+
+$pipenv install pyjwt==1.7.1
