@@ -23,3 +23,9 @@ $pipenv install marshmallow==2.16.3
 $pipenv install pymongo==3.7.2
 
 $pipenv install pyjwt==1.7.1
+
+$export MONGO_URL=mongodb://mongo_user:mongo_secret@0.0.0.0:27017/
+
+$pipenv install flask_cors==3.0.7
+
+$FLASK_APP=$PWD/app/http/api/endpoints.py FLASK_ENV=development pipenv run python -m flask run --port 4433
