@@ -58,4 +58,9 @@ We suggest that you begin by typing:
 $yarn add @material-ui/core
 $yarn add @material-ui/icons
 
+#### React Routing and Okta
+
+yarn add react-router-dom
+
+yarn add @okta/okta-react
 
